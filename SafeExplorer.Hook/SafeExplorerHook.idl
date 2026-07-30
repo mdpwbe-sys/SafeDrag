@@ -1,0 +1,19 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+    uuid(1F894451-5D34-4C2E-99A0-39458912B456),
+    version(1.0),
+]
+library SafeExplorerHookLib
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(7B896489-3F1E-4E7B-8B2B-987813C12A34)
+    ]
+    coclass CopyHook
+    {
+        [default] interface IUnknown;
+    };
+};

@@ -1,0 +1,11 @@
+HKCR
+{
+    NoRemove AppID
+    {
+        '{1F894451-5D34-4C2E-99A0-39458912B456}' = s 'SafeExplorerHook'
+        'SafeExplorer.Hook.DLL'
+        {
+            val AppID = s '{1F894451-5D34-4C2E-99A0-39458912B456}'
+        }
+    }
+}

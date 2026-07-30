@@ -1,0 +1,77 @@
+bin/
+obj/
+artifacts/
+.vs/
+*.user
+*.suo
+*.pdb
+*.tmp
+*.log
+
+# BEGIN MANAGED SECURITY WORKFLOW
+# Secrets: local files are never versioned; examples stay versionable.
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.*.sample
+.envrc
+.direnv/
+
+# Private keys, certificates containing private material, credentials.
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+
+# Dependencies, generated output and caches.
+node_modules/
+.pnp/
+.yarn/cache/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.turbo/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local runtime state.
+*.log
+*.pid
+*.db
+*.sqlite
+*.sqlite3
+*.tsbuildinfo
+.vercel/
+.netlify/
+
+# Local backups and security workflow state.
+backup/
+backups/
+.local-backups/
+.security-workflow/
+
+# OS and editor state.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+# END MANAGED SECURITY WORKFLOW
